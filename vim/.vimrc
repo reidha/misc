@@ -54,5 +54,9 @@ nnoremap <silent> ;;p :MarkdownPreview<CR>
 call plug#begin()
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug'] }
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+Plug 'pangloss/vim-javascript'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
