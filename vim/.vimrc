@@ -51,6 +51,7 @@ set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:%
 nnoremap <silent> ;;p :MarkdownPreview<CR>
 
 " vim-plug
+" https://github.com/junegunn/vim-plug
 call plug#begin()
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug'] }
